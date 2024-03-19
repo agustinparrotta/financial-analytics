@@ -1,21 +1,21 @@
 # Financial Analytics
 
-Se aborda una estrategia de _pairs trading_ utilizando Bitcoin y sus proxies. Estas estrategias buscan explotar diferencias de corto plazo entre activos altamente correlacionados, tomando una posición _long_ en el activo que está underperforming y _short_ en el overperforming. Se analizan distintos proxies de Bitcoin:
+A pairs trading strategy using Bitcoin and its proxies is addressed. These strategies aim to exploit short-term differences between highly correlated assets, taking a _long_ position on the underperforming asset and a _short_ position on the overperforming one. Different proxies of Bitcoin are analyzed:
 
-- Criptomonedas: Ethereum (ETH)
+- Cryptocurrencies: Ethereum (ETH)
 - Microstrategy (MSTR)
 - Grayscale Bitcoin Investment Trust (GBTC)
-- Empresas de minería de Bitcoin: MARA, RIOT
+- Bitcoin mining companies: MARA, RIOT
 - ETFs: BITO, BITW
 
-Sin embargo, se termina utilizando GBTC como único proxy debido a su alta correlación.
+However, GBTC is ultimately used as the sole proxy due to its high correlation.
 
-### Recursos:
+### Resources:
 
-- Fuente de datos: Coin Metrics para la serie de precios de criptomonedas y Yahoo Finance para el resto.
-- Código fuente: nos apoyamos en los códigos proporcionados en el libro _Advances in Financial Machine Learning_, de Marcos López de Prado.
-- Algoritmo de _pairs trading_: la estrategia StatArb detallada en Learn Algorithmic Trading, de Sebastien Donadio y Sourav Ghosh, fue de gran ayuda.
-- Librerías:
+- Data source: Coin Metrics for cryptocurrency price series and Yahoo Finance for the rest.
+- Source code: Relied on the codes provided in the book _Advances in Financial Machine Learning_ by Marcos López de Prado.
+- Pairs trading algorithm: the StatArb strategy detailed in _Learn Algorithmic Trading_ by Sebastien Donadio and Sourav Ghosh was very helpful.
+- Libraries:
   - pandas
   - numpy
   - matplotlib
